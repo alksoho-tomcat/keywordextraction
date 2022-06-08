@@ -1,4 +1,4 @@
-jQuery(document).ready(function( $ ){
+$(document).ready(function( $ ){
   var inputTitle = $('#inputTitle');
   var inputText = $('#inputTextarea');
   var button = $('#button');
