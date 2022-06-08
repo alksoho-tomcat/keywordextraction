@@ -35,7 +35,7 @@ $(document).ready(function( $ ){
 		// 通信実行
     $.ajax({
         type:"post",																		// method = "POST"
-        url:"http://aws-portfolio-infra.com/",				// POST送信先のURL
+        url:"http://aws-portfolio-infra.com/post",				// POST送信先のURL
         contentType: 'application/json',								// リクエストの Content-Type
         dataType: "json",           										// レスポンスをJSONとしてパースする
 				data:data																				// JSONデータ本体
