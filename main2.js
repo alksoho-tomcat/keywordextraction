@@ -38,9 +38,10 @@ $(document).ready(function( $ ){
         url:"http://aws-portfolio-infra.com/home/ec2-user",				// POST送信先のURL
         contentType: 'application/json',								// リクエストの Content-Type
         dataType: "json",           										// レスポンスをJSONとしてパースする
-				data:data																				// JSONデータ本体
+	data:data																				// JSONデータ本体
 		}).done(function(response) {
-			
+			console.(response);
+	    
 			// outputText初期化
 			outputText.val("");
 			
